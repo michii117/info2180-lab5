@@ -1,1 +1,103 @@
 /* Add your own styles */
+
+body {
+    margin: 0;    
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+    background-color: azure;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin: 100px 0px 0px 0px;
+}
+
+header {
+    background-color: #2a4a5a;
+    height: auto;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="search"] {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 6px #00000033);
+    font-size: 18px;
+    color: slategrey;
+}
+
+input[type="search"]:focus-visible {
+    outline: 0px;
+}
+
+button#lookup {
+    padding: 14px 30px;
+    border: 0px;
+    filter: drop-shadow(0px 2px 3px #00000033);
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+main {
+    background-color: azure;
+    padding: 60px 10%;
+}
+
+div#result {
+    height: auto;
+    padding: 60px 0px 0px 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: inline;
+    width: 30%;
+    padding: 20px;
+}
+
+
+
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+
+td {
+    width: 191px;
+    height: 30px;
+    padding: 10px 25px;
+}
+
+th {
+    padding: 15px 25px;
+    text-align: left;
+}
+
+table {
+    filter: drop-shadow(0px 0px 3px #00000033);
+}
+
+div#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
